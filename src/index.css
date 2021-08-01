@@ -1,30 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  background-color: #ffe268;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.Heading-1{
+.Intro{
+  text-transform: capitalize;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
-}
-.Para-intro-1{
-  font-family:cursive;
-  text-decoration: black;
-  text-align: center;
-}
-.FriendImage{
   
-  height: 300px;
-  width: 300px;
+}
+body{
+  background-color: rgb(167, 62, 238);
+}
+.search-box{
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  padding: 30px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.Content{
+  text-align: center;
+
 }
 
+.IconImage{
+  height: 200px;
+}
